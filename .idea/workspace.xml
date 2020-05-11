@@ -13,11 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_linux_synchronization_mechanism/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_introduction_to_operating_systems/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_introduction_to_operating_systems/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/2_introduction_to_operating_systems/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <updated>1589176691423</updated>
       <workItem from="1589176692948" duration="400000" />
       <workItem from="1589177110940" duration="76000" />
-      <workItem from="1589177208525" duration="10041000" />
+      <workItem from="1589177208525" duration="17701000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
@@ -69,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589176938885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cpuls">
+      <created>1589198819421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589198819421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,13 +81,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="linux begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="linux begin" />
+    <MESSAGE value="cpuls" />
+    <option name="LAST_COMMIT_MESSAGE" value="cpuls" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589176938835">
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589198819305">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589176938835" />
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589198819305" />
     <state x="2451" y="289" width="847" height="524" key="IDE.errors.dialog" timestamp="1589188961312">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -92,5 +97,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2361" y="162" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589194307228" />
+    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1589198822581">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589198822581" />
   </component>
 </project>
