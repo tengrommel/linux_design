@@ -13,11 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,8 @@
       <updated>1589176691423</updated>
       <workItem from="1589176692948" duration="400000" />
       <workItem from="1589177110940" duration="76000" />
-      <workItem from="1589177208525" duration="26288000" />
+      <workItem from="1589177208525" duration="27141000" />
+      <workItem from="1589249815668" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589207025582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ok">
+      <created>1589217625194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589217625194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,17 +130,18 @@
     <MESSAGE value="cpuls" />
     <MESSAGE value="introduction" />
     <MESSAGE value="3 chapter start" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 chapter start" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589216510690">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589216510690" />
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589207025530">
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589217625140">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589207025530" />
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589217625140" />
     <state width="1872" height="268" key="GridCell.Tab.0.bottom" timestamp="1589216724613">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -158,9 +166,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2361" y="162" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589194307228" />
-    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1589207028374">
+    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1589217871834">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589207028374" />
+    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589217871834" />
   </component>
 </project>
