@@ -11,9 +11,14 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ex/cli/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ex/fit/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex/fit/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/fit/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/fit/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/cli/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ex/cli/src/main.rs" afterDir="false" />
     </list>
@@ -41,6 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
@@ -90,6 +96,8 @@
       <workItem from="1589615462242" duration="835000" />
       <workItem from="1589617101613" duration="1089000" />
       <workItem from="1589638725845" duration="976000" />
+      <workItem from="1589640789041" duration="601000" />
+      <workItem from="1589642413708" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
@@ -184,6 +192,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2475" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589253188634" />
+    <state x="2607" y="387" width="535" height="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589642426736">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2607" y="387" width="535" height="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589642426736" />
     <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589618265452">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

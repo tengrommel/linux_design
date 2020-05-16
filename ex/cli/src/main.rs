@@ -1,25 +1,18 @@
 // some-old-feature
 // what do to?(k/d/s/?) > s
+use git2::BranchType;
+use git2::Repository;
 use std::fmt;
 use std::io;
 use std::io::{Read, Write};
-use git2::Repository;
-use git2::BranchType;
-
 
 struct Foo {
-    f: str
+    y: &'static str,
 }
-fn main() -> Result<(), Error> {
-    let repo = Repository::open_from_env()?;
-    let mut stdout = io::stdout();
-    for branch in repo.branches(Some(BranchType::Local))? {
-        let (branch, branch_type) = branch?;
-        let name = branch.name_bytes()?;
-        stdout.write_all(name)?;
-        write!(stdout, "\n");
-    }
-    Ok(())
+
+fn main() {
+    let mut h = Foo { y: "foo" };
+    h.y = "hi";
 }
 
 #[derive(Debug, thiserror::Error)]
