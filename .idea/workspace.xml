@@ -10,11 +10,16 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/ex/cli/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4_core_utilities/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5_data_streams/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cli/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cli/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cli/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Using_the_linux_command_line/readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +87,12 @@
       <workItem from="1589249815668" duration="4441000" />
       <workItem from="1589257023760" duration="1358000" />
       <workItem from="1589268241672" duration="8778000" />
+      <workItem from="1589299657191" duration="83000" />
+      <workItem from="1589511191401" duration="1509000" />
+      <workItem from="1589601971007" duration="52000" />
+      <workItem from="1589615273757" duration="11000" />
+      <workItem from="1589615462242" duration="835000" />
+      <workItem from="1589617101613" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
