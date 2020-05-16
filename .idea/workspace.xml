@@ -14,14 +14,7 @@
     <cargoProject FILE="$PROJECT_DIR$/ex/fit/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex/fit/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex/fit/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex/fit/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/cli/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ex/cli/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +90,7 @@
       <workItem from="1589617101613" duration="1089000" />
       <workItem from="1589638725845" duration="976000" />
       <workItem from="1589640789041" duration="601000" />
-      <workItem from="1589642413708" duration="723000" />
+      <workItem from="1589642413708" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
