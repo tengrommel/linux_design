@@ -4,10 +4,16 @@ use std::fmt;
 use std::io;
 use std::io::{Read, Write};
 use git2::Repository;
+use git2::BranchType;
+
+
+struct Foo {
+    f: str
+}
 fn main() -> Result<(), Error> {
     let repo = Repository::open_from_env()?;
     let mut stdout = io::stdout();
-    for branch in repo.branches(None)? {
+    for branch in repo.branches(Some(BranchType::Local))? {
         let (branch, branch_type) = branch?;
         let name = branch.name_bytes()?;
         stdout.write_all(name)?;
@@ -20,12 +26,12 @@ fn main() -> Result<(), Error> {
 enum Error {
     #[error(transparent)]
     CrosstermError(#[from] crossterm::ErrorKind),
-    
+
     #[error(transparent)]
     IoError(#[from] io::Error),
 
     #[error(transparent)]
-    GitError(#[from] git2::Error)
+    GitError(#[from] git2::Error),
 }
 
 // impl From<crossterm::ErrorKind> for Error {
