@@ -1,8 +1,10 @@
 // some-old-feature
 // what do to?(k/d/s/?) > s
-use git2::BranchType;
+use chrono::prelude::*;
+use chrono::Duration;
+use git2::{Oid,BranchType};
 use git2::Repository;
-use std::fmt;
+use std::string::FromUtf8Error;
 use std::io;
 use std::io::{Read, Write};
 
@@ -10,9 +12,37 @@ struct Foo {
     y: &'static str,
 }
 
-fn main() {
-    let mut h = Foo { y: "foo" };
-    h.y = "hi";
+fn main() -> Result<(), Error> {
+    let repo = Repository::open_from_env()?;
+    Ok(())
+}
+
+type Result<T, E=Error> = std::result::Result<T, E>;
+
+fn get_branches(repo: &Repository) -> Result<Vec<Branch>> {
+    let mut branches = vec![];
+    for branch in repo.branches(Some(BranchType::Local))? {
+        let (branch, branch_type) = branch?;
+        let name = String::from_utf8(branch.name_bytes()?.to_vec())?;
+
+        let commit = branch.get().peel_to_commit()?;
+        let time = commit.time();
+        let offset = Duration::minutes(i64::from(time.offset_minutes()));
+        let time = NaiveDateTime::from_timestamp(time.seconds(), 0) + offset;
+        branches.push(Branch{
+            id: commit.id(),
+            time,
+            name
+        });
+    }
+    Ok(branches)
+}
+
+#[derive(Debug)]
+struct Branch {
+    id: Oid,
+    time: NaiveDateTime,
+    name: String
 }
 
 #[derive(Debug, thiserror::Error)]
@@ -25,6 +55,9 @@ enum Error {
 
     #[error(transparent)]
     GitError(#[from] git2::Error),
+
+    #[error(transparent)]
+    FromUtf8Error(#[from] FromUtf8Error),
 }
 
 // impl From<crossterm::ErrorKind> for Error {
