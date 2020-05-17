@@ -2,3 +2,5 @@
 .idea
 /ex/cli/target/
 /ex/fit/target/
+/ex/use_grpc/target/
+/ex/grpc_ex/target/

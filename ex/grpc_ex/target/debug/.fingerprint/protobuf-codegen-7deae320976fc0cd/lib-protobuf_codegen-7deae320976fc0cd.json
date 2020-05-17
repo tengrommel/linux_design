@@ -1,0 +1,1 @@
+{"rustc":17444072189324216992,"features":"[]","target":1507910232728367767,"profile":9935990280773120926,"path":465578714333282851,"deps":[[8675111499853169915,"protobuf",false,4292867636363929034]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/protobuf-codegen-7deae320976fc0cd/dep-lib-protobuf_codegen-7deae320976fc0cd"}}],"rustflags":[],"metadata":3342327538722204237}

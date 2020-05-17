@@ -1,0 +1,11 @@
+/home/teng/CLionProjects/linux_design/ex/grpc_ex/target/debug/deps/proc_macro2-f8387ee0c29a5719.rmeta: /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/lib.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/parse.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/detection.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/fallback.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/wrapper.rs
+
+/home/teng/CLionProjects/linux_design/ex/grpc_ex/target/debug/deps/libproc_macro2-f8387ee0c29a5719.rlib: /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/lib.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/parse.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/detection.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/fallback.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/wrapper.rs
+
+/home/teng/CLionProjects/linux_design/ex/grpc_ex/target/debug/deps/proc_macro2-f8387ee0c29a5719.d: /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/lib.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/parse.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/detection.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/fallback.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/wrapper.rs
+
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/lib.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/parse.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/detection.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/fallback.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/proc-macro2-1.0.13/src/wrapper.rs:

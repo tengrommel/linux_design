@@ -1,0 +1,10 @@
+/home/teng/CLionProjects/linux_design/ex/grpc_ex/target/debug/deps/futures_channel-42a80ed056ec5c39.rmeta: /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/lib.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/lock.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/mod.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/queue.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/sink_impl.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/oneshot.rs
+
+/home/teng/CLionProjects/linux_design/ex/grpc_ex/target/debug/deps/futures_channel-42a80ed056ec5c39.d: /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/lib.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/lock.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/mod.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/queue.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/sink_impl.rs /home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/oneshot.rs
+
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/lib.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/lock.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/mod.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/queue.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/mpsc/sink_impl.rs:
+/home/teng/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/futures-channel-0.3.5/src/oneshot.rs:
