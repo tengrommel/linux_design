@@ -73,9 +73,7 @@ fn get_branch_action_from_user(
         None => return get_branch_action_from_user(stdout, stdin, branch),
     };
     let c = char::from(byte);
-    write!(stdout, "{}", )
-
-
+    write!(stdout, "{}", branch.name)?;
     if  c == '?' {
             write!(stdout, "\n\r")?;
             write!(stdout, "Here are what the commands mean \r\n")?;
