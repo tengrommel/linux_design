@@ -16,16 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex/cs196.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-43f7d2df9cd06f66/test-lib-grpc_ex-43f7d2df9cd06f66" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-43f7d2df9cd06f66/test-lib-grpc_ex-43f7d2df9cd06f66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-43f7d2df9cd06f66/test-lib-grpc_ex-43f7d2df9cd06f66.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-43f7d2df9cd06f66/test-lib-grpc_ex-43f7d2df9cd06f66.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-bd66e56d539cfc05/run-build-script-build_script_build-bd66e56d539cfc05" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-bd66e56d539cfc05/run-build-script-build_script_build-bd66e56d539cfc05" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-bd66e56d539cfc05/run-build-script-build_script_build-bd66e56d539cfc05.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-bd66e56d539cfc05/run-build-script-build_script_build-bd66e56d539cfc05.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-d8e1b02bd2605170/lib-grpc_ex-d8e1b02bd2605170" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-d8e1b02bd2605170/lib-grpc_ex-d8e1b02bd2605170" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-d8e1b02bd2605170/lib-grpc_ex-d8e1b02bd2605170.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/debug/.fingerprint/grpc_ex-d8e1b02bd2605170/lib-grpc_ex-d8e1b02bd2605170.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +106,8 @@
       <workItem from="1589708989767" duration="1369000" />
       <workItem from="1589720568819" duration="6616000" />
       <workItem from="1589739510280" duration="20000" />
-      <workItem from="1589761756874" duration="1285000" />
+      <workItem from="1589761756874" duration="1459000" />
+      <workItem from="1589978647416" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
@@ -207,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589739390060</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ok">
+      <created>1589766445596</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589766445596</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +234,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2607" y="387" width="535" height="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589642426736" />
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589739389779">
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589766445212">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589739389779" />
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589766445212" />
     <state width="1872" height="268" key="GridCell.Tab.0.bottom" timestamp="1589739427468">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -262,9 +262,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2361" y="162" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589194307228" />
-    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1589739397674">
+    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1589766449371">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589739397674" />
+    <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589766449371" />
   </component>
 </project>
