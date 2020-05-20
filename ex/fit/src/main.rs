@@ -9,6 +9,7 @@ fn main() {
         Ok(file) => file,
     };
     let mut fits_data = Vec::new();
+
     match file.read_to_end(&mut fits_data) {
         Err(e) => panic!(
             "Couldn't read file: {}: {}",
