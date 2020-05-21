@@ -1,8 +1,8 @@
 [profile.dev]
-panic = "abort"
+# panic = "abort"
 
 [profile.release]
-panic = "abort"
+# panic = "abort"
 
 [package]
 name = "os_ex"
