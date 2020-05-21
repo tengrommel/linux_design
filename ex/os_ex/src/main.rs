@@ -9,6 +9,7 @@ static HELLO: &[u8] = b"Hello world!";
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
     println!("Hello World{}", "!");
+    panic!("Some panic message");
     loop {}
 }
 
