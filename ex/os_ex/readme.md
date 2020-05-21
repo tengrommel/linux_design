@@ -1,1 +1,3 @@
 # panic
+
+cargo xrun
