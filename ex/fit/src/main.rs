@@ -1,4 +1,4 @@
-use std::borrow::Cow;
+extern crate byteorder;
 use std::collections::HashMap;
 use std::env;
 use std::fs::File;
@@ -11,9 +11,9 @@ enum Section {
     Extension,
 }
 
-struct Fits<Header, Data, Extension> {
+struct Fits<'a> {
     header: Header,
-    data: Data,
+    data: Data<'a>,
     extension: Vec<Extension>,
 }
 
@@ -60,7 +60,7 @@ fn main() {
     let mut state = Section::Header;
     let mut block_index = 0;
 
-    let mut fits: Fits<Header, Data, Extension> = Fits {
+    let mut fits: Fits = Fits {
         header: Default::default(),
         data: Default::default(),
         extension: Default::default(),
@@ -100,6 +100,44 @@ fn main() {
             }
         };
     }
+    render_data(&fits);
+}
+
+fn render_data(fits: &Fits) {
+    println!("Rendering FITS data");
+    let mut rendered_data: Vec<f32> = vec![0.0; fits.data.data.len() / 4];
+    use byteorder::{BigEndian, ByteOrder};
+    BigEndian::read_f32_into(&fits.data.data, &mut rendered_data);
+
+    let mut normalised_data = Vec::new();
+    normalise(255.0, &rendered_data, &mut normalised_data);
+    write_png(&fits, &normalised_data, "data/output.png");
+}
+
+fn normalise(normalise_to: f32, data: &[f32], normal_data: &mut Vec<u8>) {
+    let mut high = 0.0;
+    for i in data {
+        if *i > high {
+            high = *i;
+        }
+    }
+    for i in data {
+        let value = i / high * normalise_to;
+        normal_data.push(value as u8);
+    }
+}
+
+fn write_png(fits: &Fits, data: &[u8], output_path: &str) {
+    use std::io::BufWriter;
+    let file = File::create(output_path).expect("Couldn't create PNG file");
+    let mut buffer = BufWriter::new(file);
+    let mut encoder = png::Encoder::new(buffer, 200, 2);
+    encoder.set_color(png::ColorType::Grayscale);
+    encoder.set_depth(png::BitDepth::Eight);
+    let mut writer = encoder.write_header().expect("Couldn't write PNG header");
+    if writer.write_image_data(&data).is_err() {
+        println!("Couldn't write PNG image data");
+    }
 }
 
 fn parse_header(fits: &[u8], last_block: usize, current_block: usize) -> Header {
@@ -109,7 +147,7 @@ fn parse_header(fits: &[u8], last_block: usize, current_block: usize) -> Header 
     println!("Found header end");
     for chunk in header_data.chunks(RECORD_SIZE) {
         let record_string = String::from_utf8_lossy(chunk);
-        if let Some(Record { key, value }) = parse_record(record_string) {
+        if let Some(Record { key, value }) = parse_record(&record_string) {
             println!("{}: {}", key, value);
             header_records.insert(key, value);
         }
@@ -119,7 +157,7 @@ fn parse_header(fits: &[u8], last_block: usize, current_block: usize) -> Header 
     }
 }
 
-fn parse_record(record: Cow<str>) -> Option<Record> {
+fn parse_record(record: &str) -> Option<Record> {
     if record.contains('=') {
         let records: Vec<&str> = record.splitn(2, "=").collect();
         let r = Record {
