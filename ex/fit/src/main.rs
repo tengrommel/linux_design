@@ -83,7 +83,7 @@ fn main() {
                     fits.data = parse_data(&fits_data, block_index, (x, y));
                 }
                 state = Section::Extension;
-                block_index = current_block + (fits.data.data.len() / BLOCK_SIZE);
+                block_index = current_block + (fits.data.data.len() / BLOCK_SIZE) + 1;
             }
             Section::Extension => {
                 if String::from_utf8_lossy(chunk).contains("XTENSION") {
