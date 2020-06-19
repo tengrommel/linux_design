@@ -10,19 +10,12 @@
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
-    <cargoProject FILE="$PROJECT_DIR$/ex/cli/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ex/fit/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ex/grpc_ex/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/master/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/cli/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/cli/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/cli/src/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/grpc_ex/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/ex/grpc_ex/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/ray_tracer/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ex/ray_tracer/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +114,8 @@
       <workItem from="1592159067546" duration="20000" />
       <workItem from="1592486374351" duration="1477000" />
       <workItem from="1592487952809" duration="24000" />
+      <workItem from="1592536154722" duration="1911000" />
+      <workItem from="1592549800809" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
@@ -227,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589979079057</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ok">
+      <created>1592536303810</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1592536303810</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,9 +244,9 @@
     <MESSAGE value="no good" />
     <MESSAGE value="cmd" />
     <MESSAGE value="cli" />
-    <MESSAGE value="ok" />
     <MESSAGE value="main Idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="main Idea" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589253188634">
@@ -255,10 +257,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2607" y="387" width="535" height="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589642426736" />
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1589979078722">
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2" timestamp="1592536303192">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589979078722" />
+    <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592536303192" />
     <state width="1872" height="268" key="GridCell.Tab.0.bottom" timestamp="1589739427468">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
