@@ -12,3 +12,8 @@ Another good side effect of unit tests is that they encourage the programmer to 
 
 The takeaway is that tests are indispensable for any software project. Now, let's look at how we can write tests in Rust, starting by learning about organizing tests!
 
+
+# Using generics
+>Now, the way we instantiate or use generic types is also a bit different than their non-generic counterparts. 
+
+Any time we instantiate them, the compiler needs to know the concrete type in place of T in their type, signature, which gives it the type information to monomorphize the generic code. Most of the time, the concrete type is inferred based on the instantiation of the type or by calling any method that takes a concrete type in the case of generic functions. In rare cases, we need to help the compiler by specifically typing out the concrete type in place of the generic type by using the turbofish (::<>) operator. We'll see how that is used in a moment.
