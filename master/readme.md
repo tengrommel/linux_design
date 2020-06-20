@@ -98,3 +98,6 @@ During the lifetime of a process, it uses many system resources. First, it need
 
 # Ownership
 > The notion of a true owner of a resource in a program differs across languages. Here, by resource, we collectively refer to any variable holding a value on the heap or the stack, or a variable holding an open file descriptor, a database connection socket, a network socket, and similar things. All of them occupy some memory from the time they exist until the time they are done being used by the program. An important responsibility of being the owner of a resource is to judiciously free the memory used by them, as not being able to perform deallocations at proper places and times can lead to memory leaks.
+
+# Borrowing
+> The concept of borrowing is there to circumvent the restrictions with the ownership rule. Under borrowing, you don't take ownership of values, but only lend data for as long as you need. This is achieved by borrowing values, that is, taking a reference to a value. To borrow a value, we put the  & operator before the variable & is the address of operator . We can borrow values in Rust in two ways.
