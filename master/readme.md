@@ -101,3 +101,38 @@ During the lifetime of a process, it uses many system resources. First, it need
 
 # Borrowing
 > The concept of borrowing is there to circumvent the restrictions with the ownership rule. Under borrowing, you don't take ownership of values, but only lend data for as long as you need. This is achieved by borrowing values, that is, taking a reference to a value. To borrow a value, we put the  & operator before the variable & is the address of operator . We can borrow values in Rust in two ways.
+
+- Immutable borrows
+- Mutable borrows
+
+#Borrowing rules
+
+Similar to the ownership rule, we also have borrowing rules that maintain the single ownership semantics with references, too. These rules are as follows:
+
+- A reference may not live longer than what it referred to. This is obvious, since if it did, it would be referring to a garbage value.
+- If there's a mutable reference to a value, no other references, either mutable or immutable references, are allowed to the same value in that scope. A mutable reference is an exclusive borrow.
+- If there is no mutable reference to a thing, any number of immutable references to the same value are allowed in the scope.
+
+# Lifetime elision and the rules
+
+Any time there's a reference in a function or a type definition, there's a lifetime involved. Most of the time, you don't need to use explicit lifetime annotation is you code as the compiler is smart to infer them for you as a lot of information is already available at compile time about references.
+
+ In other words, these two function signatures are identical:
+
+    fn func_one(x: &u8) → &u8 { .. }
+
+    fn func_two<'a>(x: &'a u8) → &'a u8 { .. }
+In the usual case, the compiler has elided the lifetime parameter for  func_one and we don't need to write it as func_two.
+
+But the compiler can elide lifetimes only in restricted places and there are rules for elision. Before we talk about these rules, we need to talk about input and output lifetimes. These are only discussed when functions that take references are involved.
+
+Input lifetime: Lifetime annotations on function parameters that are references are referred to as input lifetimes.
+
+Output lifetimes: Lifetime annotations on function return values that are references are referred to as output lifetimes.
+
+It's import to note that any output lifetime originates from input lifetimes. We cannot have a output lifetime that is independent and distinct from the input lifetime. It can only be a lifetime that is smaller than or equal to the output lifetime.
+
+The following are the rules that are followed when eliding lifetimes:
+
+- If the input lifetime contains only a single reference, the output lifetime is assumed to be the same
+- For methods involving self and &mut self, the input lifetime is inferred for the  &self parameter
