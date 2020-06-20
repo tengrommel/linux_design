@@ -136,3 +136,7 @@ The following are the rules that are followed when eliding lifetimes:
 
 - If the input lifetime contains only a single reference, the output lifetime is assumed to be the same
 - For methods involving self and &mut self, the input lifetime is inferred for the  &self parameter
+
+In computer science, a self-balancing (or height-balanced) binary search tree is any node-based binary search tree that automatically keeps its height (maximal number of levels below the root) small in the face of arbitrary item insertions and deletions
+
+# Type system tidbits
