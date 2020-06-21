@@ -1,5 +1,5 @@
 [package]
-name = "stream_cli"
+name = "command_line"
 version = "0.1.0"
 authors = ["teng <wwwsousoucom@126.com>"]
 edition = "2018"
