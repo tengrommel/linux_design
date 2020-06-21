@@ -15,10 +15,17 @@
     <cargoProject FILE="$PROJECT_DIR$/ex/os_ex/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ex/ray_tracer/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/ex/command_line/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/5_data_streams/balance/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1d6d6f1-5ee2-4ea9-a99d-75db1cd3ae6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ex/ray_tracer/src/vec3.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/Cargo.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/config/display.ron" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/cat_volleyball/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/command_line/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ex/command_line/src/main.rs" afterDir="false" />
     </list>
@@ -31,12 +38,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ex/cat_volleyball" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="idmbxlr8" />
   </component>
   <component name="ProjectId" id="1bkWhcyy5n40l227BSjqtgz65Pt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,7 +147,8 @@
       <workItem from="1592598929832" duration="12957000" />
       <workItem from="1592688005338" duration="3964000" />
       <workItem from="1592716872912" duration="299000" />
-      <workItem from="1592730721782" duration="1054000" />
+      <workItem from="1592730721782" duration="3483000" />
+      <workItem from="1592739282099" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="linux begin">
       <created>1589176938885</created>
@@ -316,7 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592698507468</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="type system">
+      <created>1592731821336</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1592731821336</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ok">
+      <created>1592731980529</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1592731980529</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,13 +355,13 @@
     <MESSAGE value="cmd" />
     <MESSAGE value="cli" />
     <MESSAGE value="main Idea" />
-    <MESSAGE value="ok" />
     <MESSAGE value="runtime" />
     <MESSAGE value="owner" />
     <MESSAGE value="borrow" />
     <MESSAGE value="lifetime" />
     <MESSAGE value="type system" />
-    <option name="LAST_COMMIT_MESSAGE" value="type system" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2475" y="215" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589253188634">
@@ -349,11 +372,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2607" y="387" width="535" height="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589642426736" />
-    <state x="474" y="36" width="1920" height="1040" key="CommitChangelistDialog2" timestamp="1592698507405">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="0" y="36" width="1920" height="1040" key="CommitChangelistDialog2" timestamp="1592731980442">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="474" y="36" width="961" height="1040" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1592642971924" />
-    <state x="0" y="36" width="1920" height="1040" key="CommitChangelistDialog2/0.27.3840.1053@0.27.3840.1053" timestamp="1592663273832" />
+    <state x="0" y="36" width="1920" height="1040" key="CommitChangelistDialog2/0.27.3840.1053@0.27.3840.1053" timestamp="1592731980442" />
     <state x="474" y="36" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1592698507405" />
     <state x="2394" y="31" width="961" height="1040" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1592536303192" />
     <state width="1872" height="268" key="GridCell.Tab.0.bottom" timestamp="1589739427468">
@@ -380,11 +403,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2361" y="162" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589194307228" />
-    <state x="555" y="280" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1592698510503">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="320" y="280" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1592731984158">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="555" y="280" width="800" height="532" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1592642975982" />
-    <state x="320" y="280" width="800" height="532" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1592663035808" />
+    <state x="320" y="280" width="800" height="532" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1592731984158" />
     <state x="555" y="280" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1592698510503" />
     <state x="2475" y="259" width="800" height="532" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1589979085211" />
   </component>
